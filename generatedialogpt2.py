@@ -176,7 +176,7 @@ def evaluate(
     #prompt = generate_prompt(instruction, input)
     #print(generate_prompt(instruction, input))
 
-    gptbot = GPTBot(model_name_or_path="dialogpt2", max_history_len=3,max_len=max_new_tokens,temperature=temperature,topk=top_k,topp=top_p,repetition_penalty=repetition_penalty )
+    gptbot = GPTBot(model_name_or_path="StarRing2022/MiLu-GPT", max_history_len=3,max_len=max_new_tokens,temperature=temperature,topk=top_k,topp=top_p,repetition_penalty=repetition_penalty )
     
     #output = gptbot.answer(PROMPT_FORMAT.format(instruction=instruction))
     #print(PROMPT_FORMAT.format(instruction=instruction))
