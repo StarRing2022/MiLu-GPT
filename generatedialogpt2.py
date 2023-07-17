@@ -12,8 +12,8 @@ else:
 #torch.set_default_tensor_type(torch.cuda.HalfTensor)
 
 
-tokenizer = BertTokenizerFast.from_pretrained("dialogpt2", add_special_tokens=True)
-model = GPT2LMHeadModel.from_pretrained("dialogpt2",device_map='auto')
+tokenizer = BertTokenizerFast.from_pretrained("StarRing2022/MiLu-GPT", add_special_tokens=True)
+model = GPT2LMHeadModel.from_pretrained("StarRing2022/MiLu-GPT",device_map='auto')
 
 # PROMPT_FORMAT = """Below is an instruction that describes a task. Write a response that appropriately completes the request.
 
