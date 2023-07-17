@@ -14,3 +14,5 @@ train.py：从头训练模型<br>
 interact.py: 使用从头训练模型给出回复<br>
 gptbot.py：给出一个对话机器人<br>
 generatedialogpt2.py：几种基于指令式或非指令式的回复格式<br>
+
+HF开源地址：https://huggingface.co/StarRing2022/MiLu-GPT/
