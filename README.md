@@ -1,2 +1,2 @@
 # MiLu-Uni
-基于GPT2+LLAMA多Lora融合的语言模型，以少量的纯中文语料从头训练，验证小模型在由大模型Lora融合加持后的ChatGPT类似友好能力
+基于GPT2+BERT的语言模型，以少量的纯中文语料从头训练，验证小模型在ChatGPT类似友好能力
